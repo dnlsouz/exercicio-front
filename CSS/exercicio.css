@@ -1,0 +1,74 @@
+
+body {
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   background-image: url(../imagens/fundo01.jpg);
+   background-attachment: fixed;
+   
+}
+
+hr {
+   
+    height: 2px;
+    background-color: rgb(52,89,145);
+    border: none;
+ 
+}
+
+h1{
+animation-name: caindo;
+    animation-duration: 2s;
+
+
+    font-family: 'Rubik Iso', cursive;
+    color: #ffffff;
+    background-color: rgb(52, 89, 145);
+    padding: 10px;
+
+    border: dashed;
+    box-shadow: inset aqua 0px 0px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@keyframes caindo {
+
+from { transform: translateY(-100px); 
+    opacity: 0;   
+}
+}
+
+
+    
+h2 { 
+    font-size: 20px;
+    border-bottom: solid 5px;
+    border-left: solid 5px;
+    padding-left: 10px;
+}
+
+h3,p, figcaption { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+figcaption { font-weight: bold ;}
+
+
+
+h3 {
+    padding: 10px;
+    background: linear-gradient( 360deg, blue, white);
+    
+}
+
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+img {max-width: 100%;}
+
+    
+    
