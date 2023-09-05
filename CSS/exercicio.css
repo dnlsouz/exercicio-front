@@ -70,5 +70,18 @@ figure {
 
 img {max-width: 100%;}
 
+li::marker {
+   content: "✔ " ;
+}
+
+p a { color:blue;}
+
+
+
+
+    
+
+
+
     
     
